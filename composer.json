@@ -1,0 +1,17 @@
+{
+    "name": "vbcod/result",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "vbcod",
+            "email": "bovile17051992@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Vbcod\\": "src"
+        }
+    }
+}
