@@ -1,6 +1,6 @@
 <?php
 
-namespace Vbcod;
+namespace Vbcod\Result;
 
 class Result
 {
@@ -14,6 +14,11 @@ class Result
     public function isSuccess()
     {
         return $this->status == self::STATUS_SUCCESS;
+    }
+
+    public function isError()
+    {
+        return $this->status == self::STATUS_ERROR;
     }
 
     public function setStatusToSuccess()

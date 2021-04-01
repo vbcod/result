@@ -11,7 +11,12 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "Vbcod\\": "src"
+            "Vbcod\\Result\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Vbcod\\Result\\Tests\\": "tests"
         }
     }
 }
